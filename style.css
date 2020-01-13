@@ -1,0 +1,183 @@
+*{
+  background-color: Black;
+  color: Seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid Seashell;
+  z-index: 5;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.nav {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav a {
+  color: Seashell;
+  padding: 0px 10px;
+}
+
+/* Content */
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.content {
+  position: relative;
+  top: 70px;
+}
+
+/* Our Mission section */
+.mission-contain {
+  background-image: url("img/img-mission-background.jpg");
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mission {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Tea of the Month section */
+.tea-of-month-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  text-align: center;
+  margin: 60px auto;
+}
+
+.tea-of-month {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 75px;
+  margin-bottom: 20px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.second-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+.item span {
+  padding: 20px;
+}
+
+/* Locations section */
+.locations-contain {
+  background-image: url("img/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.locations {
+  background-color: rgba(0,0,0,0);
+  padding-bottom: 15px;
+}
+
+.locations h2 {
+  background-color: rgba(0,0,0,0);
+}
+
+.third-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1200px;
+  background-color: rgba(0,0,0,0);
+}
+
+.locale {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  padding: 30px 20px;
+}
